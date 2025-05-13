@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de Fundamentos e Desenvolvimento de Software</title>
+    <style>
+        body {
+            background-color: #acd2f3; /* Cor suave de fundo*/
+            font-family: Arial, sans-serif;   
+            margin: 22px;
+        }
+
+        h1  {
+            color: rgb(125, 23, 108);
+            text-align: center;
+        }
+
+        p   {
+            font-size: 20px;
+            text-align: justify;
+            margin-bottom: 12px;
+        }
+
+        ul  {
+            line-height: 2em;
+            list-style-type: disc;
+        }
+
+        img {
+            border-radius: 13px;
+            width: 300px;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,th,td {
+            border: 1px solid#899089;
+        }
+
+        td  {
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #3066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #e86209;
+            text-decoration: underline;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #mensagem {
+            margin-top: 10px;
+            font-style: italic;
+            color: rgb(45, 4, 139);
+        }
+    </style>
+</head>
+<body>
+    <!--1.Título principal-->
+    <h1>Fernanda de Freitas Xavier</h1>
+   
+    <!--2.Páragrafo com breve autografia-->
+    <p>Olá me chamo Fernanda, uma mulher apaixonada pela vida e por tudo o que ela oferece. Tenho três filhos que são minha maior motivação e alegria. Atualmente, trabalho como gerente de um estabelecimento comercial na área alimentícia, onde coloco em prática minha dedicação, organização e espírito de liderança. Fora do trabalho, sou movida por experiências que me fazem sentir viva: adoro viajar, conhecer novos lugares e culturas. Andar de moto é uma das minhas formas preferidas de me sentir livre. Também sou fã de uma boa comida, valorizo um bom descanso e cuido da minha saúde praticando musculação. Nos meus momentos de tranquilidade, gosto de ler e ouvir música, atividades que me ajudam a recarregar as energias e alimentar a mente. Levo a vida com intensidade, buscando equilíbrio entre minhas responsabilidades e os prazeres do dia a dia. Essa sou eu: determinada, curiosa e sempre pronta para o próximo desafio.</p>  
+    <button  onclick="mostrarmensagem()">Clique para ver uma mensagem!</button>
+    <div id="mensagem"></div>
+
+    <!--3.Lista não ordenada com hobbies-->
+    <ul>
+        <li>Viajar</li>
+        <li>Fotografia</li>
+        <LI>Cinema</LI>
+    </ul>
+
+    <!--4.Imagem representando um dos hobbies-->
+   <img src="Imagens/viajem.jpg" alt="viajem" width="180"></td>
+  
+    <!--5.Nome e Imagem de três países que eu gostaria de visitar-->
+    <h2>Países que eu gostaria de visitar</h2>
+    <table>
+         <tr>
+            <td>Argentina</td>
+            <td><img src="Imagens/ushuaia.jpg" alt="Argentina" width="180"></td>
+         </tr>
+         <tr>
+            <td>França</td>
+            <td><img src="Imagens/França.jpg" alt="França" width="180"></td>
+         </tr>
+         <tr>
+            <td>Itália</td>
+            <td><img src="Imagens/Italia.jpg" alt="Itália" width="180"></td>
+         </tr>
+     </table>
+
+        <a href="https://www.netflix.com" target="_blank">Acesse meu site</a>
+
+        <script>
+            function mostrarmensagem(){
+                document.getElementById("mensagem").innerText = "Seja bem-vindo(a) à minha página! A persistência leva ao sucesso. 🚀";
+            }
+            
+        </script>
+        <body>
+</html>
+
+
+
+
